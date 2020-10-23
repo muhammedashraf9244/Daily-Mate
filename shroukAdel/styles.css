@@ -1,0 +1,32 @@
+body{
+  background-color: black;
+}
+
+.mynav {
+  border-width: 0 0 0 10px;
+  border-style: solid;
+  border-color: #6a097d;
+  height: 70px;
+}
+
+i{
+  border-width: 0 0 0 5px;
+  border-style: solid;
+  border-color: #6a097d;
+}
+img{
+  width: 100%;
+}
+
+.stimg{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: -1;
+
+}
+
+.selectionMode {
+  background-color: #6a097d;
+  height: 1000px;
+}
