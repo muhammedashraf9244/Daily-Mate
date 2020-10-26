@@ -8,13 +8,14 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Lato&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
   <!-- nav bar -->
 
-  <div class="container sticky-top ">
+  <div class="container-fluid p-0 sticky-top ">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top mynav p-0">
       <a class="navbar-brand " href="#"> <i class="fab fa-dyalog logo"> </i>
         AILY MATE
@@ -25,21 +26,20 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#BusinessLink">Business-Mate</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#StudentLink">Student-Mate</a>
           </li>
         </ul>
       </div>
   </div>
 
   <!-- home image -->
-
-  <div class="container-fluid p-0 sticky-top stimg">
+<div class="container-fluid p-0 sticky-top stimg" id="home">
     <img src="images/homepic.jpg " alt="" id="bgimg">
     <p class="centered">ORGANIZE PERFECTLY</p>
 
@@ -52,7 +52,7 @@
 
   <div class="sticky row selectionMode p-0">
     <div class=" col-sm-3 h-50 select1 p-0 ">
-      <button type="button" name="button" id="chooseMode1"> <a href="StudentMate.html" class="nav-link p-0" id="achoose"> Student Mate </a> </button>
+      <button type="button" name="button" id="chooseMode1"> <a  id="StudentLink" href="./login/login.html" class="nav-link p-0" id="achoose"> Student Mate </a> </button>
     </div>
     <div class=" col-sm-3 h-50 select3 p-0">
 
@@ -61,20 +61,23 @@
 
     </div>
     <div class=" col-sm-3 h-50 select1 p-0">
-      <button type="button" name="button" id="chooseMode2"> <a href="Business-Mate.html" class="nav-link" id="achoose"> Business Mate </a> </button>
+      <button type="button" name="button" id="chooseMode2"> <a id="BusinessLink" href="./login/login.html" class="nav-link" id="achoose"> Business Mate </a> </button>
     </div>
 
   </div>
 
 
 
+<br>
+<footer class="container-fluid myfooter text-center">
+  <p id="footertext">Daily Mate is Made with  💜 by <a href="http://www.iti.gov.eg/">www.iti.gov.eg</a></p>
+</footer>
 
-
-
-  <script src="script.js" charset="utf-8"></script>
+ <script src="script.js" charset="utf-8"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
-</html>
+
+</html> -->
